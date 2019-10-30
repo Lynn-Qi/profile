@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Roboto:300,400,700&display=swap');
+
+body{
+  background-color: rgb(210,210,210)
+}
+h1 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 700;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 300;
+  color: rgb(80,80,80);
+}
+
+a {
+  color: #396362;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none
+}
+
+a:hover {
+  color: #4b8e8d;
+}
+
+h2 {
+  color: #5f6769;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 100;
+}
+
+.fab {
+  color: #5eb7b7;
+  line-height: 1;
+  margin: 8px;
+}
+
+.fab:hover {
+  color: #373737;
+
+}
+
+.card-white {
+  text-align: center;
+  padding: 30px 50px;
+  border-radius: 15px;
+  margin: 20px 0px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+  background-color: rgb(255,255,255);
+}
+
+.second {
+  padding:10px;
+}
+
+.img-circle{
+  border-radius: 50%;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+  border: 1px solid #066c86;
+}
+
+.btn-gray {
+  background-color: #719192;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 40px;
+  box-shadow: 3px 5px 4px rgba(120,120,120,0.5);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+#introduction{
+ /* margin-top: ;*/
+  margin-bottom: 30px;
+  margin: 17px 0px 40px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
