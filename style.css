@@ -13,6 +13,13 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 300;
   color: rgb(80,80,80);
+  /*text-align: center*/
+  width: 410px;
+  margin: 0 auto;
+  line-height: 2;
+  margin-bottom: 30px;
+  vertical-align:middle;
+  text-align: center;
 }
 
 a {
@@ -89,8 +96,9 @@ div {
 
 #introduction{
  /* margin-top: ;*/
+ margin-top: 30px;
   margin-bottom: 30px;
-  margin: 17px 0px 40px;
+  /*margin: 17px 0px 40px;*/
 }
 
 @media (max-width: 960px) {
